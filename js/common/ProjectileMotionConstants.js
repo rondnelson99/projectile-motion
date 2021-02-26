@@ -46,7 +46,7 @@ const ProjectileMotionConstants = {
 
   PROJECTILE_MASS_RANGE: new Range( .01, 5000 ), // in original, highest is 1000
   PROJECTILE_DIAMETER_RANGE: new Range( 0.01, 50 ), // in original, smallest is 0.043
-  PROJECTILE_DRAG_COEFFICIENT_RANGE: new Range( 0.04, 5 ), // teardrop to almost hemisphere shape
+  PROJECTILE_DRAG_COEFFICIENT_RANGE: new Range( 0.04, 20 ), // teardrop to almost hemisphere shape
 
   ALTITUDE_RANGE: new Range( -5000, 10000 ), // meters, max is arbitrary but in upper stratosphere
   GRAVITY_RANGE: new Range( -50, 50 ), // in m/s/s

@@ -156,6 +156,7 @@ const ProjectileObjectViewFactory = {
     }
     else {
       return new Image( piano1Image, { maxWidth: transformedBallSize * 1.1 } );
+
     }
   },
 

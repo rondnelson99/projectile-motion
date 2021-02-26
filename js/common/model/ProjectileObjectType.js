@@ -239,9 +239,9 @@ ProjectileObjectType.PIANO = new ProjectileObjectType(
   ProjectileMotionConstants.PROJECTILE_DRAG_COEFFICIENT_RANGE.max,
   'piano',
   false, {
-    massRange: new Range( 50, 1000 ),
+    massRange: new Range( -50, 1000 ),
     massRound: 1,
-    diameterRange: new Range( 0.5, 3 ),
+    diameterRange: new Range( -10, 1000 ),
     diameterRound: 0.1,
 
     // the piano can accept all drag coefficient ranges
